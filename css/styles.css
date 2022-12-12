@@ -13,16 +13,50 @@
     color: #4D5AE5;
     }
 .studio {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 24px;
     color: #2E2F42;
     }
+.studio-footer {
+    color: #F4F4FD
+}    
 .menu-link {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     color: #2E2F42;
-}    
+} 
+.mail-studio, .phone-number {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.main-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    /* color: #FFFFFF; */
+} 
+.modal-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.19;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #4D5AE5;
+}  
+.modal-btn:hover,
+.modal-btn:focus {
+    background: #4D5AE5;
+    color: #FFFFFF;
+}
