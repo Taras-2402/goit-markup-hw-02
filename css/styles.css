@@ -7,6 +7,7 @@
 }
 body {
 font-family: 'Roboto', sans-serif;
+color:#2E2F42;
 }
 /*-- Header--*/
 .logo-web {
@@ -27,7 +28,6 @@ font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
-    color: #2E2F42;
 } 
 .mail-studio, .phone-number {
     font-weight: 400;
@@ -38,6 +38,9 @@ font-family: 'Roboto', sans-serif;
 }
 /*--/Header--*/
 /*--Hero--*/
+.title {
+    display: none;
+}
 .main-title {
     font-weight: 600;
     font-size: 56px;
@@ -66,7 +69,6 @@ font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
 }
 .text-list {
     font-weight: 400;
@@ -81,15 +83,15 @@ font-family: 'Roboto', sans-serif;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
 }
 .name {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
 }
+/*--/Hero--*/
+/*--Footer--*/
 .subname {
     font-weight: 400;
     font-size: 16px;
@@ -100,4 +102,4 @@ font-family: 'Roboto', sans-serif;
 .paragraf {
     color: #E7E9FC;
 }
-/*--/Hero--*/
+/*--/Footer--*/
